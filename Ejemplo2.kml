@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Generador de KML</name>
+<Style id="rosa"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="rojo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="azul"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="verde"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="cielo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="blanco"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="amarillo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="morado"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="A"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/A.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="B"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/B.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="C"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/C.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="D"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/D.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="E"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/E.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="F"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/F.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="G"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/G.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="H"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/H.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="I"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/I.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="J"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/J.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="K"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/K.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="L"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/L.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="M"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/M.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="N"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/N.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="O"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/O.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="P"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/P.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Q"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Q.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="R"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/R.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="S"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/S.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="T"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/T.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="U"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/U.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="V"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/V.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="W"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/W.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="X"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/X.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Y"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Y.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Z"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Z.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="1"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/1.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="2"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/2.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="3"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/3.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="4"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/4.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="5"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/5.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="6"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/6.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="7"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/7.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="8"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/8.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="9"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/9.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="10"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/10.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Folder>
+<name>Prueba ITAM</name>
+
+<Placemark>
+<name>
+Paris</name>
+<description>
+Paris en FR</description>
+<LookAt>
+<longitude>
+2.3488</longitude>
+<latitude>
+48.85341</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+2.3488,
+48.85341,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Ottawa</name>
+<description>
+Ottawa en CA</description>
+<LookAt>
+<longitude>
+-75.69812</longitude>
+<latitude>
+45.41117</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+-75.69812,
+45.41117,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Toluca</name>
+<description>
+Toluca en MX</description>
+<LookAt>
+<longitude>
+-99.65324</longitude>
+<latitude>
+19.28786</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>rosa</styleUrl>
+<Point>
+<coordinates>
+-99.65324,
+19.28786,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Madrid</name>
+<description>
+Madrid en ES</description>
+<LookAt>
+<longitude>
+-3.70256</longitude>
+<latitude>
+40.4165</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+-3.70256,
+40.4165,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Oaxaca</name>
+<description>
+Oaxaca en MX</description>
+<LookAt>
+<longitude>
+-96.5</longitude>
+<latitude>
+17.0</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>rosa</styleUrl>
+<Point>
+<coordinates>
+-96.5,
+17.0,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Monaco</name>
+<description>
+Monaco en MC</description>
+<LookAt>
+<longitude>
+7.41667</longitude>
+<latitude>
+43.73333</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+7.41667,
+43.73333,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Lyon</name>
+<description>
+Lyon en FR</description>
+<LookAt>
+<longitude>
+4.84671</longitude>
+<latitude>
+45.74846</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+4.84671,
+45.74846,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Napoli</name>
+<description>
+Napoli en IT</description>
+<LookAt>
+<longitude>
+14.24641</longitude>
+<latitude>
+40.85631</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+14.24641,
+40.85631,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Bern</name>
+<description>
+Bern en CH</description>
+<LookAt>
+<longitude>
+7.44744</longitude>
+<latitude>
+46.94809</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+7.44744,
+46.94809,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Bern</name>
+<description>
+Bern en CH</description>
+<LookAt>
+<longitude>
+7.44744</longitude>
+<latitude>
+46.94809</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+7.44744,
+46.94809,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Wien</name>
+<description>
+Wien en AT</description>
+<LookAt>
+<longitude>
+16.37208</longitude>
+<latitude>
+48.20849</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+16.37208,
+48.20849,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Bucharest</name>
+<description>
+Bucharest en RO</description>
+<LookAt>
+<longitude>
+26.10626</longitude>
+<latitude>
+44.43225</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+26.10626,
+44.43225,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Belgrade</name>
+<description>
+Belgrade en RS</description>
+<LookAt>
+<longitude>
+20.46513</longitude>
+<latitude>
+44.80401</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+20.46513,
+44.80401,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Puebla</name>
+<description>
+Puebla en MX</description>
+<LookAt>
+<longitude>
+-98.20193</longitude>
+<latitude>
+19.04334</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>rosa</styleUrl>
+<Point>
+<coordinates>
+-98.20193,
+19.04334,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Queretaro</name>
+<description>
+Queretaro en MX</description>
+<LookAt>
+<longitude>
+-100.38806</longitude>
+<latitude>
+20.58806</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>rosa</styleUrl>
+<Point>
+<coordinates>
+-100.38806,
+20.58806,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Acapulco</name>
+<description>
+Acapulco en MX</description>
+<LookAt>
+<longitude>
+-99.8901</longitude>
+<latitude>
+16.86336</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>rosa</styleUrl>
+<Point>
+<coordinates>
+-99.8901,
+16.86336,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+Orlando</name>
+<description>
+Orlando en </description>
+<LookAt>
+<longitude>
+-81.37924</longitude>
+<latitude>
+28.53834</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+-81.37924,
+28.53834,
+0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>
